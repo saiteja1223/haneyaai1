@@ -1,0 +1,7 @@
+<mvc:View controllerName="com.sample.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+     <Text id="welcomeText" text="Welcome to Fiori version 2"></Text>
+    </Page>
+</mvc:View>
