@@ -1,0 +1,19 @@
+general:
+  buildTool: "mta"
+
+service:
+  buildToolVersion: "MBT01"
+
+stages:
+  Build:
+    mavenExecuteStaticCodeChecks: false
+
+  Acceptance:
+    cloudFoundryDeploy: true
+
+steps:
+  cloudFoundryDeploy:
+    cloudFoundry:
+      org: "5f0fe528trial"
+      space: "dev"
+      credentialsId: "cf-credentials"
