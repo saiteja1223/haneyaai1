@@ -16,4 +16,4 @@ steps:
     cloudFoundry:
       org: "5f0fe528trial"
       space: "dev"
-      credentialsId: "cf-credentials"
+      credentialsId: "btpcredentials"
